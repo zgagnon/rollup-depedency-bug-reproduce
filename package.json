@@ -1,0 +1,17 @@
+{
+    "name": "bundle_test",
+    "version": "0.1.0",
+    "private": true,
+    "devDependencies": {
+        "@rollup/plugin-node-resolve": "^7.1.1"
+    },
+    "scripts": {
+	"rollup": "rollup -c rollup.config.js -o bundle.js -i index.js"
+    },
+    "dependencies": {
+        "@rollup/plugin-commonjs": "^11.0.2",
+        "@rollup/plugin-json": "^4.0.2",
+        "aws-xray-sdk-core": "^2.5.0",
+        "rollup": "^1.31.1"
+    }
+}
